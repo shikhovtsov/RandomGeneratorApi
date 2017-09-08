@@ -1,0 +1,4 @@
+services:
+    random_generator.model.random_number:
+        class: RandomGenerator\RandomGeneratorBundle\Model\RandomNumberModel
+        arguments: ['@doctrine.orm.entity_manager']
