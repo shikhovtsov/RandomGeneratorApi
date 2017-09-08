@@ -1,0 +1,5 @@
+api_v1_random_generator:
+    type: rest
+    resource: "@RandomGeneratorBundle/Controller/ApiController.php"
+    name_prefix:  api_1_
+    prefix: /api

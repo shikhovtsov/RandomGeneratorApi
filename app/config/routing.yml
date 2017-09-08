@@ -1,0 +1,3 @@
+api_v1:
+    type: rest
+    resource: "@RandomGeneratorBundle/Resources/config/routing.yml"
